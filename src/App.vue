@@ -9,10 +9,11 @@
 import HelloWorld from './components/HelloWorld.vue'
 
 export default {
-  name: 'app',
+  name: 'appo98k',
   components: {
     HelloWorld
-  }
+  },
+  kill: 'ok'
 }
 </script>
 
