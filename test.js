@@ -17,14 +17,16 @@
 
 // test.print();
 
-const events = require('events');
+// const events = require('events');
 
-var emitter = new events.EventEmitter();
+// var emitter = new events.EventEmitter();
 
-emitter.addListener('aa',function(a,b) {
-    console.log('callback!!!'+a+b);
-})
+// emitter.addListener('aa',function(a,b) {
+//     console.log('callback!!!'+a+b);
+// })
 
-setTimeout(function() {emitter.emit('aa','hello',1)},3000);
+// setTimeout(function() {emitter.emit('aa','hello',1)},3000);
 
 
+
+console.log(/.css$/.test('121.css21.sss'));
