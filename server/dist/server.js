@@ -23,7 +23,8 @@ http.createServer(function(req,res) {
             if (err) {
                 console.log(err);
                 // 404
-                res.writeHead(404,{'Content-Type': 'text/html'});
+                res.writeHead(404,{'Content-Type': 'text/html; charset=UTF-8'});
+                res.write('<h1>对不起，您要访问的页面不存在</h1>');
             } else {
                 // 200
                 res.writeHead(200,{'Content-Type': 'text/html'});
@@ -31,29 +32,40 @@ http.createServer(function(req,res) {
                 // 响应文件内容
                 res.write(data.toString());
             }
+            // 发送响应内容
+            res.end();
+            console.log('finish!!')
         })
-        // 发送响应内容
-        res.end();
-
     } else {
         // 从文件系统中读取所请求的文件
         fs.readFile(pathname.substr(1),function(err,data) {
             if (err) {
                 console.log(err);
                 // 404
-                res.writeHead(404,{'Content-Type': 'text/html'});
+                res.writeHead(404,{'Content-Type': 'text/html; charset=UTF-8'});
+                res.write('<h1>对不起，您要访问的页面不存在</h1>');
+
+                // 判断是否是css文件
             } else if (/.css$/.test(pathname)) {
                 // 200
                 res.writeHead(200,{'Content-Type': 'text/css'});
                 res.write(data.toString());                
+
+                // 判断是否是png文件
+            } else if (/.png$/.test(pathname)) {
+                // 200
+                res.writeHead(200,{'Content-Type': 'image/png; charset=UTF-8'});
+                res.write(data);                  
+
             } else {
                 // 200
                 res.writeHead(200,{'Content-Type': 'text/html'});
                 res.write(data.toString());
             }
+            // 发送响应内容
+            res.end();        
+            console.log('finish!!')
         })
-        // 发送相应数据
-        res.end();
     }
 
 }).listen(port);

@@ -31,10 +31,10 @@ http.createServer(function(req,res) {
                 // 响应文件内容
                 res.write(data.toString());
             }
+            // 发送响应内容
+            res.end();
+            console.log('finish!!')
         })
-        // 发送响应内容
-        res.end();
-
     } else {
         // 从文件系统中读取所请求的文件
         fs.readFile(pathname.substr(1),function(err,data) {
@@ -42,6 +42,8 @@ http.createServer(function(req,res) {
                 console.log(err);
                 // 404
                 res.writeHead(404,{'Content-Type': 'text/html'});
+
+                // 判断是否是css文件
             } else if (/.css$/.test(pathname)) {
                 // 200
                 res.writeHead(200,{'Content-Type': 'text/css'});
@@ -51,9 +53,10 @@ http.createServer(function(req,res) {
                 res.writeHead(200,{'Content-Type': 'text/html'});
                 res.write(data.toString());
             }
+            // 发送响应内容
+            res.end();        
+            console.log('finish!!')
         })
-        // 发送相应数据
-        res.end();
     }
 
 }).listen(port);
