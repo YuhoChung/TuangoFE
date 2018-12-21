@@ -33,7 +33,10 @@ http.createServer(function(req,res) {
             }
             // 发送响应内容
             res.end();
+<<<<<<< HEAD:server.js
             console.log('finish!!')
+=======
+>>>>>>> 5eb6568e0723ce1e07594b911cb7eb9b7401b8e6:dist/server.js
         })
     } else {
         // 从文件系统中读取所请求的文件
@@ -55,7 +58,10 @@ http.createServer(function(req,res) {
             }
             // 发送响应内容
             res.end();        
+<<<<<<< HEAD:server.js
             console.log('finish!!')
+=======
+>>>>>>> 5eb6568e0723ce1e07594b911cb7eb9b7401b8e6:dist/server.js
         })
     }
 
