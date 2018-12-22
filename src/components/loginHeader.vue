@@ -3,8 +3,6 @@
     <a class="logo" href="">
       <img alt="logo" src="../assets/logo.png">
     </a>
-    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-    <a class="login-link" href="">已有账号？立即登录</a>
   </header>
 </template>
 
@@ -37,12 +35,6 @@ export default {
       height: 70px;
       vertical-align: middle;
     }
-  }
-
-  .login-link {
-    float: right;
-    margin-right: 50px;
-    line-height: 80px;
   }
 }
 </style>

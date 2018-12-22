@@ -5,11 +5,17 @@ const path = require('path');
 module.exports = {
     // // 配置多页应用
     pages: {
+        // 测试
+        test: 'src/main.js',
+        
         // 主页
-        index: 'src/main.js',
+        index: 'src/index.js',
 
         // 注册页面
-        register: 'src/register.js'
+        register: 'src/register.js',
+
+        // 登录页面
+        login: 'src/login.js'
     },
 
     // // 配置默认页面

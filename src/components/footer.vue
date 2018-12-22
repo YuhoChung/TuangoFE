@@ -17,7 +17,7 @@ export default {
 .footer {
   
   margin: 10px 10px 0;
-  // padding-top: 10px;
+  padding-top: 10px;
   text-align: center;
   border-top: 1px solid @footer-top;
 

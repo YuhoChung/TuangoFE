@@ -1,5 +1,5 @@
 <template>
-  <div id="register">
+  <div id="login">
     <t-header/>
     <t-main/>
     <t-footer/>
@@ -21,8 +21,8 @@
 </template>
 
 <script>
-import header from "./components/registerHeader.vue";
-import main from "./components/registerMain.vue";
+import header from "./components/loginHeader.vue";
+import main from "./components/loginMain.vue";
 import footer from './components/footer.vue';
 
 export default {
@@ -58,3 +58,4 @@ a:hover {
   color: #2c3e50;
 } */
 </style>
+

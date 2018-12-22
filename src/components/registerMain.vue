@@ -61,7 +61,7 @@ export default {
   position: relative;
   width: 400px;
   // height: 500px;
-  margin: 50px auto 50px;
+  margin: 50px auto 100px;
   padding-left: 80px;
 
   span {
