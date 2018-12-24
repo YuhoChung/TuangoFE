@@ -6,6 +6,7 @@
       v-for="img in imgs"
       :src='img.url'
       :key="img.id">
+      <img src="" alt="">
       {{img.name}}
     </el-carousel-item>
   </el-carousel>
