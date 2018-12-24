@@ -1,5 +1,5 @@
 <template>
-  <img src="../assets/logo.png" alt="logo">
+  <a href=""><img src="../assets/logo.png" alt="logo"></a>
   <!-- <div>
 
   </div> -->
@@ -15,5 +15,12 @@ export default {
 
 
 <style lang="less" scoped>
+  a {
+    display: inline-block;
+    width: 178px;
+    height: 115px;
+    vertical-align: top;
+  }
+    
 
 </style>

@@ -20,9 +20,10 @@ export default {
 
 <style lang="less" >
   @theme-color: #0799a1;
-  .search-block {      
-    width: 50px;
-    margin-top: 300px;
+  .search-block { 
+    display: block;     
+    width: 550px !important;
+    margin: 55px 0 0 140px;
     .search-btn {
       background-color: @theme-color !important;
       border-top-left-radius: 0;
