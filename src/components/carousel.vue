@@ -44,7 +44,6 @@ export default {
 .carousel-block {
   float: left;
   width: 980px;
-  height: 1000px;
   margin: 50px 0 0 20px;
 }
 .carousel-img {
@@ -52,4 +51,5 @@ export default {
   height: 280px;
 
 }
+
 </style>

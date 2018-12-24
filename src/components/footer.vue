@@ -16,7 +16,7 @@ export default {
 @footer-top:rgba(7,153,161,0.25);
 .footer {
   
-  margin: 10px 10px 0;
+  margin: 10px 10px 40px;
   padding-top: 10px;
   text-align: center;
   border-top: 1px solid @footer-top;
