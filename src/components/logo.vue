@@ -20,6 +20,7 @@ export default {
     width: 178px;
     height: 115px;
     vertical-align: top;
+    margin: 20px 0 20px 65px;
   }
     
 

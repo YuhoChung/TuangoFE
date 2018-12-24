@@ -1,9 +1,11 @@
 <template>
   <div id="tuango">
     <index-header></index-header>
-    <logo class="logo"></logo>
+    <div>
+    <logo></logo>
     <!-- <div class="test"></div> -->
     <searchBlock></searchBlock>
+    </div>
     <left-nav></left-nav>
     <carousel></carousel>
   </div>
@@ -42,12 +44,15 @@ a:hover {
   color: @theme-color;
 }
 
-.logo {
-  margin: 20px 0 0 65px;
-}
 
 .nav {
   margin-left: 65px
+}
+
+.search-btn {
+  i {
+    color: #fff;
+  }
 }
 
 // .test {

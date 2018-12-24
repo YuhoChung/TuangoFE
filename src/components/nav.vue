@@ -34,6 +34,7 @@ export default {
 @nav-bg: rgba(7, 153, 161, 0.8);
 @light-theme-color: rgba(7, 153, 161, 0.3);
 .nav {
+  float: left;
   width: 220px;
   padding: 5px 0;
   background-color: @nav-bg;

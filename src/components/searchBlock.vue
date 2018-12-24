@@ -18,10 +18,10 @@ export default {
 }
 </script>
 
-<style lang="less" >
+<style lang="less" scoped>
   @theme-color: #0799a1;
   .search-block { 
-    display: block;     
+    // display: block;     
     width: 550px !important;
     margin: 55px 0 0 140px;
     .search-btn {
