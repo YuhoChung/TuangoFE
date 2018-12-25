@@ -1,9 +1,9 @@
 <template>
   <header class="header">
-    <a class="logo" href="">
+    <a class="logo" href="/">
       <img alt="logo" src="../assets/logo.png">
     </a>
-    <a class="login-link" href="">已有账号？立即登录</a>
+    <a class="login-link" href="./login.html">已有账号？立即登录</a>
   </header>
 </template>
 

@@ -2,15 +2,15 @@
   <header class="header">
     <span class="location">
       <i class="el-icon-location"></i>
-      <a href="">杭州</a>
+      <a href="javascript:;">杭州</a>
     </span>
-    <a href>欢迎来到团go网，请登录</a>
-    <a href>注册</a>
+    <a href="./login.html">欢迎来到团go网，请登录</a>
+    <a href="./register.html">注册</a>
 
 
     <span class="right-link">
-      <a href>我的团go</a>
-      <a href>商家中心</a>
+      <a href="javascript:;">我的团go</a>
+      <a href="javascript:;">商家中心</a>
     </span>
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   </header>

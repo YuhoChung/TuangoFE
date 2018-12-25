@@ -2,7 +2,7 @@
   <div id="login">
     <t-header/>
     <t-main/>
-    <t-footer/>
+    <t-footer class="t-footer"/>
     <!-- <el-container> -->
       <!-- <el-header>
         <h1>header</h1>
@@ -47,6 +47,10 @@ a {
 }
 a:hover {
   color: @theme-color;
+}
+
+.t-footer {
+  margin-top: 100px !important;
 }
 /* a:visited {
   color: #999;

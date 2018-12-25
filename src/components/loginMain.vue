@@ -1,7 +1,7 @@
 <template>
 
   <div class="main">
-    <img src="../assets/nice.jpg" alt="nice">
+    <img src="../assets/bg.jpg" alt="nice">
     <div class="login-area">
       <div>
         <el-input
@@ -21,7 +21,7 @@
       <a href="">忘记密码？</a>
   
       <el-button class="reg-btn">登录</el-button>
-      <a href="">还没有账号？立即注册</a>
+      <a href="./register.html">还没有账号？立即注册</a>
     </div>
   </div>
 </template>
@@ -38,11 +38,13 @@ export default {
 <style lang="less" scoped>
 @theme-color:rgb(7,153,161);
 .main {
-  margin: 50px 0 85px;
+  margin: 50px 0 155px;
   overflow: hidden;
 
   img {
     float: left;
+    width: 565px;
+    height: 300px;
     margin-left: 120px;
   }
 }

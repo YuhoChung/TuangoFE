@@ -15,7 +15,10 @@ module.exports = {
         register: 'src/register.js',
 
         // 登录页面
-        login: 'src/login.js'
+        login: 'src/login.js',
+
+        // 商品详情页面
+        goodsDetail: 'src/goodsDetail'
     },
 
     // // 配置默认页面
